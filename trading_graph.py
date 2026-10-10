@@ -223,7 +223,7 @@ class TradingGraph:
                 model=model,
                 temperature=temperature,
                 api_key=api_key,
-                base_url='http://localhost:11434/v1'
+                base_url='http://localhost:8000/v1'
             )
         elif provider == "anthropic":
             # ChatAnthropic handles SystemMessage extraction automatically
